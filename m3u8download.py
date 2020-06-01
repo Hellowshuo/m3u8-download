@@ -77,7 +77,7 @@ class M3u8Downloader():
 
 
 if __name__ == "__main__":
-    url_m3u8 = "https://ptv-as.kmyuntai.cn/media/480/1.m3u8"
+    url_m3u8 = ""
     # 地址，视频名称，保存路径，同时下载个数
     M = M3u8Downloader(url_m3u8,'1.mp4',"video",4)
     M.download()
